@@ -21,3 +21,9 @@ jobs:
           pip install -r requirements.txt
           pip install pytest
 
+      - name: Rouler les tetss
+        run: |
+          PYTHONPATH=src pytest src/tests
+
+
+
